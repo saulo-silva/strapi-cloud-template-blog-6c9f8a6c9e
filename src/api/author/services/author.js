@@ -4,6 +4,6 @@
  * author service.
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { factories } = require('@strapi/strapi');
 
-module.exports = createCoreService('api::author.author');
+module.exports = factories.createCoreService('api::author.author');

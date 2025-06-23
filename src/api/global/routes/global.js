@@ -4,6 +4,6 @@
  * global router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { factories } = require('@strapi/strapi');
 
-module.exports = createCoreRouter('api::global.global');
+module.exports = factories.createCoreRouter('api::global.global');

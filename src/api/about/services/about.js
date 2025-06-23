@@ -4,6 +4,6 @@
  * about service.
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { factories } = require('@strapi/strapi');
 
-module.exports = createCoreService('api::about.about');
+module.exports = factories.createCoreService('api::about.about');

@@ -4,6 +4,6 @@
  *  about controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { factories } = require('@strapi/strapi');
 
-module.exports = createCoreController('api::about.about');
+module.exports = factories.createCoreController('api::about.about');

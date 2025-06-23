@@ -4,6 +4,6 @@
  *  global controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { factories } = require('@strapi/strapi');
 
-module.exports = createCoreController('api::global.global');
+module.exports = factories.createCoreController('api::global.global');

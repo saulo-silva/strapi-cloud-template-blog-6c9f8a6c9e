@@ -4,6 +4,6 @@
  * global service.
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { factories } = require('@strapi/strapi');
 
-module.exports = createCoreService('api::global.global');
+module.exports = factories.createCoreService('api::global.global');

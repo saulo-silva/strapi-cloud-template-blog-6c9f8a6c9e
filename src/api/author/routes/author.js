@@ -4,6 +4,6 @@
  * author router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { factories } = require('@strapi/strapi');
 
-module.exports = createCoreRouter('api::author.author');
+module.exports = factories.createCoreRouter('api::author.author');
